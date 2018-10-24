@@ -23,7 +23,7 @@ Train: python3 train.py
 test:  python3 submit.py
 
 
-# Aknowledgement
+# Acknowledgement
 Thanks to [Heng](https://www.kaggle.com/hengck23) who is really a thoughtful man. I learned a lot from his kaggle posts. Without his idea, it would be difficult for me to reach a top 20 place.
 
 # Related paper
