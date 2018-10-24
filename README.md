@@ -4,7 +4,7 @@ UNet-based for segmenting salt deposits from seismic images.
 # Genearal
 Recently, I have participated in Kaggle competition [TGS Salt Identification Challenge](https://www.kaggle.com/c/tgs-salt-identification-challenge) and reached 19th place (Silver medal). This repository contains a simplified and clean up version of my code.
 
-I used UNet-based architecture with resnet-style encoder (resnet34, SE-ResNeXt50, SE-ResNeXt101) and decoder with [scSE](https://arxiv.org/pdf/1803.02579.pdf). The best is SE-ResNeXt50 which get LB(0.887) within 10 folds. Finally, the private LB 0.8898 was achieved without post-propocess.
+I used UNet-based architecture with resnet-style encoder (resnet34, SE-ResNeXt50, SE-ResNeXt101) and decoder with hypercolumn. The best is SE-ResNeXt50 which get LB(0.887) within 10 folds. Finally, the private LB 0.8898 was achieved without post-propocess.
 
 # Requirements
 python3
@@ -38,5 +38,7 @@ Thanks to [Heng](https://www.kaggle.com/hengck23) who is really a thoughtful man
 [Hypercolumn](https://arxiv.org/pdf/1411.5752.pdf)
 
 [Deeply Supervised Learning](https://arxiv.org/pdf/1708.01241.pdf)
+
+[Concurrent Spatial and Channel ‘Squeeze & Excitation' in Fully Convolutional Networks](https://arxiv.org/pdf/1803.02579.pdf)
 
 
